@@ -43,13 +43,7 @@ public class win extends JFrame implements ActionListener {
                 answer = 0;
             }
 
-            JOptionPane.showMessageDialog(
-                null, 
-                value + "mi is " + answer + "km",
-                "Answer",
-                1,
-                icon
-            );
+            JOptionPane.showMessageDialog(null, value + "mi is " + answer + "km", "Answer", 1, icon);
         }
     }
 }
