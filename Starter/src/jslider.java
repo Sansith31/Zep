@@ -2,7 +2,7 @@ import java.awt.*;
 import javax.swing.*;
 import javax.swing.event.*;
 
-public class jslider implements ChangeListener {
+public class Jslider implements ChangeListener {
 
     JFrame frame;
     JPanel panel;
@@ -10,7 +10,7 @@ public class jslider implements ChangeListener {
     JLabel lebal;
     JSlider slider;
 
-    jslider() {
+    Jslider() {
         frame = new JFrame("Age of your choosing");
         panel = new JPanel();
         label = new JLabel();

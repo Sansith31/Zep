@@ -1,19 +1,19 @@
 import javax.swing.JOptionPane;
 
-public class virtualcomputer {
+public class Virtualcomputer {
     String cpu;
     String gpu;
     int ram;
     int storage;
 
-    virtualcomputer(String cpu, String gpu, int ram, int storage) {
+    Virtualcomputer(String cpu, String gpu, int ram, int storage) {
         this.cpu = cpu;
         this.gpu = gpu;
         this.ram = ram;
         this.storage = storage;
     }
 
-    virtualcomputer(String cpu, int ram, int storage) { // overloaded cnstructor becuz no need gpu sometimes
+    Virtualcomputer(String cpu, int ram, int storage) { // overloaded cnstructor becuz no need gpu sometimes
         this.cpu = cpu;
         this.ram = ram;
         this.storage = storage;

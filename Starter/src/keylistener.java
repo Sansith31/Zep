@@ -2,13 +2,13 @@ import javax.swing.*;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 
-public class keylistener extends JFrame implements KeyListener {
+public class Keylistener extends JFrame implements KeyListener {
 
     JLabel label = new JLabel();
     ImageIcon icon = new ImageIcon("assets//clown420.png");
     int x;
 
-    keylistener() {
+    Keylistener() {
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setSize(420, 420);
         this.addKeyListener(this);

@@ -37,16 +37,16 @@ public class Main {
         // playsound();
         // guiforeal();
         // guipanels();
-        // new guibuttons();
-        // new guijoptionpane();
-        // new jtextfield();
-        // new checkbx();
-        // new combobox();
-        // new jslider();
-        // new colorchooser();
-        // new keylistener();
-        // new mouselistener();
-        new keybindings();
+        // new Guibuttons();
+        // new Guijoptionpane();
+        // new Jtextfield();
+        // new Checkbx();
+        // new Combobox();
+        // new Jslider();
+        // new Colorchooser();
+        // new Keylistener();
+        // new Mouselistener();
+        new Keybindings();
     }
 
     public static void Intro() {
@@ -504,7 +504,7 @@ public class Main {
         String gpu = JOptionPane.showInputDialog("Enter GPU(Skip if not needed): ");
         int ram = Integer.parseInt(JOptionPane.showInputDialog("Enter RAM capacity(in GB): "));
         int storage = Integer.parseInt(JOptionPane.showInputDialog("Enter Storage capacity(in GB): "));
-        virtualcomputer vmOne = new virtualcomputer(cpu, gpu, ram, storage);
+        Virtualcomputer vmOne = new Virtualcomputer(cpu, gpu, ram, storage);
         vmOne.inputs();
         String func = JOptionPane.showInputDialog("Enter to do some with computer:  ");
         switch (func) {
@@ -529,7 +529,7 @@ public class Main {
         String gpu = JOptionPane.showInputDialog("Enter GPU(Skip if not needed): ");
         int ram = Integer.parseInt(JOptionPane.showInputDialog("Enter RAM capacity(in GB): "));
         int storage = Integer.parseInt(JOptionPane.showInputDialog("Enter Storage capacity(in GB): "));
-        virtualcomputer vmTwo = new virtualcomputer(cpu, gpu, ram, storage);
+        Virtualcomputer vmTwo = new Virtualcomputer(cpu, gpu, ram, storage);
         vmTwo.inputs();
         String func = JOptionPane.showInputDialog("Enter to do some with computer:  ");
         switch (func) {
@@ -622,7 +622,7 @@ public class Main {
 
     public static boolean guiforeal() {
 
-        new guiframe();
+        new Guiframe();
 
         Border border = BorderFactory.createLineBorder(new Color(170, 255, 0), 2);
         JLabel label = new JLabel();

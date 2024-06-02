@@ -1,8 +1,8 @@
 import javax.swing.*;
 
-public class guiframe extends JFrame {
+public class Guiframe extends JFrame {
 
-    guiframe() {
+    Guiframe() {
 
         this.setTitle("Selling Crack");
         this.setSize(420, 420);

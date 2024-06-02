@@ -1,8 +1,8 @@
 import javax.swing.*;
 
-class guijoptionpane {
+class Guijoptionpane {
 
-    guijoptionpane() {
+    Guijoptionpane() {
 
         ImageIcon logo = new ImageIcon("assets//clown420.png");
         int x = JOptionPane.showConfirmDialog(null, "Did you wash your ass today?", "Ass Hygiene",

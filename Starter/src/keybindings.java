@@ -1,7 +1,7 @@
 import java.awt.event.*;
 import javax.swing.*;
 
-public class keybindings {
+public class Keybindings {
 
     JFrame frame = new JFrame("Keybinding");
     JLabel label = new JLabel();
@@ -11,7 +11,7 @@ public class keybindings {
     Action leftAction;
     Action rightAction;
 
-    keybindings() {
+    Keybindings() {
 
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(420, 420);

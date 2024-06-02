@@ -2,12 +2,12 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 
-class combobox extends JFrame implements ActionListener {
+class Combobox extends JFrame implements ActionListener {
 
     String[] colors = { "Red", "Blue", "Green", "Yellow", "Black", "White" };
     JComboBox<String> combobox = new JComboBox<String>(colors);
 
-    combobox() {
+    Combobox() {
 
         combobox.addActionListener(this);
         this.add(combobox);

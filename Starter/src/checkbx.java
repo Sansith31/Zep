@@ -2,7 +2,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 
-class checkbx extends JFrame implements ActionListener {
+class Checkbx extends JFrame implements ActionListener {
 
     JCheckBox checkBox = new JCheckBox();
     JButton button = new JButton();
@@ -14,7 +14,7 @@ class checkbx extends JFrame implements ActionListener {
     ImageIcon right;
     ImageIcon wrong;
 
-    checkbx() {
+    Checkbx() {
 
         button.setText("Confirm");
         button.addActionListener(this);

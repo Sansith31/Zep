@@ -2,12 +2,12 @@ import java.awt.*;
 import javax.swing.*;
 import java.awt.event.*;
 
-class jtextfield extends JFrame implements ActionListener {
+class Jtextfield extends JFrame implements ActionListener {
 
     JButton button = new JButton("Submit");
     JTextField name = new JTextField();
 
-    jtextfield() {
+    Jtextfield() {
 
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setLayout(new FlowLayout());

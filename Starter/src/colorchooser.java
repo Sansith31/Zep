@@ -2,11 +2,11 @@ import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 
-public class colorchooser extends JFrame implements ActionListener {
+public class Colorchooser extends JFrame implements ActionListener {
     JButton button = new JButton("Pick a color");
     JLabel label = new JLabel();
 
-    colorchooser() {
+    Colorchooser() {
 
         button.addActionListener(this);
         label.setBackground(Color.white);

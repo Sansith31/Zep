@@ -2,10 +2,10 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 
-public class mouselistener extends JFrame implements MouseListener {
+public class Mouselistener extends JFrame implements MouseListener {
     JLabel label = new JLabel();
 
-    mouselistener() {
+    Mouselistener() {
 
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setSize(420, 420);

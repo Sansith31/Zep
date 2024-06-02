@@ -1,11 +1,11 @@
 import javax.swing.*;
 import java.awt.*;
 
-class guibuttons extends JFrame {
+class Guibuttons extends JFrame {
 
     JButton button;
 
-    guibuttons() {
+    Guibuttons() {
 
         ImageIcon img = new ImageIcon("assets//clown420.png");
 
