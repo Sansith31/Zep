@@ -6,7 +6,7 @@ import javax.swing.*;
 import javax.sound.sampled.*;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws UnsupportedAudioFileException, IOException, LineUnavailableException {
 
         // Intro(); // calling the intro function
         // inputandshi(); // taking input
@@ -37,13 +37,16 @@ public class Main {
         // playsound();
         // guiforeal();
         // guipanels();
-        new guibuttons();
+        // new guibuttons();
         // new guijoptionpane();
         // new jtextfield();
         // new checkbx();
         // new combobox();
         // new jslider();
-
+        // new colorchooser();
+        // new keylistener();
+        // new mouselistener();
+        new keybindings();
     }
 
     public static void Intro() {
@@ -164,6 +167,10 @@ public class Main {
                 looping = false;
             }
         }
+
+        int time = 20;
+        String result = (time < 18) ? "Good day." : "Good evening."; // *Short Hand if else
+        System.out.println(result);
         return null;
     }
 
@@ -195,6 +202,7 @@ public class Main {
                 break;
             default:
                 System.out.println("Not a day retard");
+                break;
         }
         return null;
     }
@@ -578,7 +586,7 @@ public class Main {
 
     public static boolean playsound() throws UnsupportedAudioFileException, IOException, LineUnavailableException {
 
-        File file = new File("res//music.wav");
+        File file = new File("assets//music.wav");
         AudioInputStream audio = AudioSystem.getAudioInputStream(file);
         Clip clip = AudioSystem.getClip();
         clip.open(audio);
